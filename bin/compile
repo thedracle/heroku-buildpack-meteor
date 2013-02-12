@@ -29,8 +29,9 @@ build() {
     meteor bundle $CACHE_DIR/bundle.tar.gz 
     mkdir -p $BUILD_DIR/.meteor/local/build
     tar -zxf $CACHE_DIR/bundle.tar.gz --strip-components 1 -C $BUILD_DIR/.meteor/local/build
-    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g opentok
+#    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g opentok
     $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g awssum
+    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g cloudfront-private-url-creator
 #    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g ws
 #    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g webrtc.io
 
