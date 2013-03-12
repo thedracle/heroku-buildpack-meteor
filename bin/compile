@@ -32,6 +32,7 @@ build() {
 #    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g opentok
     $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g awssum
     $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g cloudfront-private-url-creator
+    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g aws-sqs
 #    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g ws
 #    $BUILD_DIR/.meteor/local/usr/lib/meteor/bin/npm install -g webrtc.io
 
